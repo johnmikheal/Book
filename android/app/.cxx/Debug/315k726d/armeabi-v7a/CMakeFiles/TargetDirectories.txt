@@ -1,0 +1,2 @@
+D:/course flutter 2/projects/Book/android/app/.cxx/Debug/315k726d/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/course flutter 2/projects/Book/android/app/.cxx/Debug/315k726d/armeabi-v7a/CMakeFiles/rebuild_cache.dir

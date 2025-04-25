@@ -1,5 +1,6 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:tkuo/Constans.dart';
 import 'package:tkuo/Features/Splash/presentation/Views/Splash_View.dart';
 
 void main() {
@@ -11,8 +12,12 @@ class BooklyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const GetMaterialApp(
-      home: SplashView(),
+    return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData().copyWith(
+        scaffoldBackgroundColor: KprimaryColor,
+      ),
+      home: const SplashView(),
     );
   }
 }
