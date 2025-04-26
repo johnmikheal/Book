@@ -3,6 +3,7 @@ import 'package:flutter/widgets.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:tkuo/Core/Utilites/Assets.dart';
 import 'package:tkuo/Features/Home/Presentation/Views/widget/Custom_App_Bar.dart';
+import 'package:tkuo/Features/Home/Presentation/Views/widget/Custom_List_View_Item.dart';
 
 class HomeViewBody extends StatelessWidget {
   const HomeViewBody({super.key});
@@ -10,7 +11,10 @@ class HomeViewBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      children: [CustomAppBar()],
+      children: [
+        CustomAppBar(),
+        CustomListViewItem(),
+      ],
     );
   }
 }
