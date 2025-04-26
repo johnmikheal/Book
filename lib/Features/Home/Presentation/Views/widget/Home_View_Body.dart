@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:tkuo/Core/Utilites/Styles.dart';
 import 'package:tkuo/Features/Home/Presentation/Views/widget/Custom_App_Bar.dart';
-import 'package:tkuo/Features/Home/Presentation/Views/widget/Custom_List_View_Item.dart';
 import 'package:tkuo/Features/Home/Presentation/Views/widget/Featured_books_List_View.dart';
 
 class HomeViewBody extends StatelessWidget {
